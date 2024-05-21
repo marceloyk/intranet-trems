@@ -1,0 +1,19 @@
+{
+  "portal": [
+    {
+      "email": "marcelo.yamazaki@tre-ms.jus.br",
+      "properties": {
+        "fullname": "Intranet TRE-MS",
+        "location": "World"
+      },
+      "groups": [
+      ],
+      "roles": [
+        "Member"
+      ],
+      "username": "intranet-trems"
+    }
+  ],
+    "team": [
+  ]
+}
