@@ -1,6 +1,8 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <registry>
-  <records interface="plone.base.interfaces.controlpanel.IDateAndTimeSchema" prefix="plone">
+  <records interface="plone.base.interfaces.controlpanel.IDateAndTimeSchema"
+           prefix="plone"
+  >
     <value key="available_timezones">
       <element>America/Campo_Grande</element>
     </value>
