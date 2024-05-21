@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<registry>
+  <records interface="plone.base.interfaces.controlpanel.IDateAndTimeSchema" prefix="plone">
+    <value key="available_timezones">
+      <element>America/Campo_Grande</element>
+    </value>
+    <value key="first_weekday">6</value>
+    <value key="portal_timezone">America/Campo_Grande</value>
+  </records>
+</registry>
