@@ -7,4 +7,9 @@
       />
    -->
 
+  <utility
+      name="intranet_trems.tipos_email"
+      component=".email.tipos_vocabulary"
+      />
+
 </configure>
