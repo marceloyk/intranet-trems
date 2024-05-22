@@ -48,7 +48,7 @@
 
   <genericsetup:upgradeSteps
       profile="intranet_trems:default"
-      source="v20240521005"
+      source="v20240521004"
       destination="20240522001"
       >
     <genericsetup:upgradeDepends
@@ -66,6 +66,25 @@
     <upgradeStep
         title="Atualiza o permissionamento da pasta de colaboradores"
         handler=".v20240522001.alterar_permissionamento_colaboradores"
+        />
+  </genericsetup:upgradeSteps>
+
+  <genericsetup:upgradeSteps
+      profile="intranet_trems:default"
+      source="20240522001"
+      destination="20240522002"
+      >
+    <genericsetup:upgradeDepends
+        title="Alterar tipo de conteúdo area"
+        import_steps="typeinfo"
+        />
+    <genericsetup:upgradeDepends
+        title="Aplica permissionamento para tipo de conteúdo pessoa"
+        import_steps="rolemap"
+        />
+    <upgradeStep
+        title="Atualiza o permissionamento da pasta de estrutura"
+        handler=".v20240522002.alterar_permissionamento_estrutura"
         />
   </genericsetup:upgradeSteps>
 

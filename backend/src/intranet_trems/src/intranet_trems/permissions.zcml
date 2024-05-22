@@ -10,6 +10,9 @@
         title="intranet_trems: Add Pessoa"
         />
 
+    <permission
+        id="intranet_trems.area.add"
+        title="intranet_trems: Add Area"
+        />
   </configure>
-
 </configure>
