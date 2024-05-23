@@ -2,12 +2,12 @@
 // it is injected
 
 :root {
-    --narrow-container-width: 1100px;
-    --default-container-width: 1100px;
-    --main-color: #1330a5;
-  }
-  body.section-estrutura {
-    --main-color: pink;
-  }
-  @import 'components/header';
-  @import 'blocks/clima';
+  --narrow-container-width: 1100px;
+  --default-container-width: 1100px;
+  --main-color: #1330a5;
+}
+body.section-estrutura {
+  --main-color: pink;
+}
+@import 'components/header';
+@import 'blocks/clima';
