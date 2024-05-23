@@ -12,4 +12,9 @@
       component=".email.tipos_vocabulary"
       />
 
+  <utility
+      name="intranet_trems.areas"
+      component=".areas.areas_vocabulary"
+      />
+
 </configure>

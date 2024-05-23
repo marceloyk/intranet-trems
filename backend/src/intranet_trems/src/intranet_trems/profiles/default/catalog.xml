@@ -10,4 +10,11 @@
   <!-- Metadata
   <column value="industry" />
 -->
+
+  <index meta_type="KeywordIndex"
+         name="area"
+  >
+    <indexed_attr value="area" />
+  </index>
+
 </object>
