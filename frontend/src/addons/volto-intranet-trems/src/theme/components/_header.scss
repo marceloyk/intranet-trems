@@ -1,0 +1,11 @@
+.navigation {
+    .item {
+      color: var(--main-color) !important;
+      &:hover,
+      &.active {
+        &::before {
+          border-bottom: 9px solid var(--main-color) !important;
+        }
+      }
+    }
+  }
